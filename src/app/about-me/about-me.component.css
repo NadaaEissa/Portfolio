@@ -1,0 +1,32 @@
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+.btn-custom {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+
+.btn-custom:hover {
+  background: linear-gradient(45deg, #0056b3, #00408a);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 91, 187, 0.4);
+}
